@@ -36,15 +36,15 @@ func main() {
 	scanner := bufio.NewScanner(f)
 	scanner.Scan()
 	instructions := strings.Split(scanner.Text(), ",")
-	wireA = drawOnGrid(instructions, wireA)
+	wireA = drawWire(instructions, wireA)
 	scanner.Scan()
 	instructions = strings.Split(scanner.Text(), ",")
-	wireB = drawOnGrid(instructions, wireB)
+	wireB = drawWire(instructions, wireB)
 	compareWires(wireA, wireB)
 
 }
 
-func drawOnGrid(instructions []string, wire wire) wire {
+func drawWire(instructions []string, wire wire) wire {
 	var xPos, yPos int
 	steps := 0
 	for _, instr := range instructions {
