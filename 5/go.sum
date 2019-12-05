@@ -1,0 +1,3 @@
+github.com/miono/aoc2019 v0.0.0-20191204055120-86f7bc3fbb61 h1:47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+github.com/miono/aoc2019/intcode v0.0.0-20191205060726-44ccd44a9c1c h1:VH6iQJWF7oSZB/+g/1wmY3RpffHbYGI6nVhAcvLQFYc=
+github.com/miono/aoc2019/intcode v0.0.0-20191205060726-44ccd44a9c1c/go.mod h1:PvCFY2iyPFBMkuPlq8d9bjP4i+zpqJz17KV1pj3VyA4=
